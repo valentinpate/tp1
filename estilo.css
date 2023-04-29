@@ -118,7 +118,7 @@ button[type=eye-password]{
 
 button[type=signin-button]{
     margin: 20px 0 10px 0;
-    padding: 12px 72px 12px 72px;
+    padding: 12px 78px 12px 78px;
     background-color:rgb(255, 115, 28);
     color:white;
 }
@@ -136,6 +136,11 @@ hr[type=hr-2]{
     position: relative;
     left:264px;
     bottom:13px;
+}
+
+h5[type=forgot]{
+    position:relative;
+    bottom:30px;
 }
 
 /* PSEUDOCLASES */
@@ -303,6 +308,8 @@ button:hover{
 
 .login-div-3{
     margin: 0 0 30px 0;
+    position:relative;
+    bottom:22px;
     text-align:center;
 }
 
