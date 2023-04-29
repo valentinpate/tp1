@@ -161,6 +161,7 @@ button:hover{
 .telefono-header{
     margin: 15px 10px 15px 50px;
     display:flex;
+    cursor: pointer;
 }
 
 .bi-telephone-fill{
@@ -340,6 +341,10 @@ button:hover{
 }
 
 /* PSEUDOCLASES DE CLASES */
+
+.telefono-header:hover{
+    text-decoration:underline;
+}
 
 .delivery-phrase:hover{
     text-decoration:underline;
