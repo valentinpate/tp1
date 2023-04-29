@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+/* SELECTORES */
+
+body{
+    background-color: white;
+}
+
+img{
+    border: 2px solid transparent;
+    border-radius: 10px;
+}
+
+header{
+    padding: 0px 0 0 0;
+    font-family:'Lato', sans-serif;
+    background-color:#2c3333;
+    color: white;
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+img[type="foto-login"]{
+    margin: 0 0 0 320px;
+    width: 500px; 
+}
+
+input[type=search]{
+    font-family: 'Poppins', sans-serif;
+    width:560px;
+    height:50px;
+    border:2px solid rgb(204, 204, 204);
+    border-radius:10px;
+    padding-left:12px;
+}
+
+input[type=text]{
+    margin: 8px 0 28px 0;
+    font-family: 'Poppins', sans-serif;
+    width:370px;
+    height:40px;
+    border:2px solid rgb(185, 185, 185);
+    border-radius:8px;
+    padding-left:12px;
+}
+
+input[type=password]{
+    display:inline-block;
+    margin: 8px 0 8px 0;
+    font-family: 'Poppins', sans-serif;
+    width:370px;
+    height:40px;
+    border:2px solid rgb(185, 185, 185);
+    border-radius:8px;
+    padding-left:12px;
+}
+
+button{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5s,
+    color 0.5s,
+    transform 0.5s;
+}
+
+button[type=search-button]{
+    position:relative;
+    right:43px;
+    padding: 3px 4px 3px 4px;
+}
+
+button[type=google-button]{
+    margin: 8px 5px 1px 12px;
+    padding: 0px 12px 0px 12px;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+button[type=facebook-button]{
+    margin: 8px 5px 3px 15px;
+    padding: 4px 17px 1px 17px;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+button[type=apple-button]{
+    margin: 8px 5px 8px 15px;
+    padding: 12px 23px 12px 23px;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+button[type=email-button]{
+    margin: 0 25px 0 0;
+    padding: 8px 30px 8px 30px;
+    background-color:rgb(255, 115, 28);
+    color:white;
+    border-radius: 9px;
+}
+
+button[type=mobile-button]{
+    margin: 0 0 0 5px;
+    padding: 8px 30px 8px 30px;
+}
+
+button[type=eye-password]{
+    position:relative;
+    bottom:44px;
+    left:352px;
+    margin: 0 0 0 0;
+    padding:2px 4px 2px 4px;
+} 
+
+button[type=signin-button]{
+    margin: 20px 0 10px 0;
+    padding: 12px 72px 12px 72px;
+    background-color:rgb(255, 115, 28);
+    color:white;
+}
+
+hr{
+    width:120px;
+}
+
+hr[type=hr-1]{
+    position: relative;
+    top:15px;
+}
+
+hr[type=hr-2]{
+    position: relative;
+    left:264px;
+    bottom:13px;
+}
+
+/* PSEUDOCLASES */
+
+button:hover{
+    background-color: rgb(252, 148, 72);
+    color: white;
+    transform:scale(1.1);
+}
+
+/* CLASES */
+
+.contacto-header{
+    display:flex;
+    flex-grow:1;
+}
+
+.telefono-header{
+    margin: 15px 10px 15px 50px;
+    display:flex;
+}
+
+.bi-telephone-fill{
+    margin: 0 15px 0 0;
+}
+
+.support-header{
+    margin: 15px 10px 15px 60px;
+    display:flex;
+}
+
+.bi-envelope-fill{
+    margin: 0 15px 0 0;
+}
+
+.delivery{
+    display:flex;
+}
+
+.delivery-truck{
+    margin: 0 50px 0 0;
+    display:flex;
+    cursor:pointer;
+}
+
+.fa-truck-fast{
+    margin:0 20px 0 0;
+}
+
+.delivery-caret-1{
+    margin: 0 30px 0 40px;
+    display:flex;
+    cursor:pointer;
+}
+
+.delivery-caret-2{
+    display:flex;
+    margin: 0 20px 0 0;
+    cursor:pointer;
+}
+
+.bi-caret-down-fill{
+    margin: 0 0 0 10px;
+}
+
+.busqueda{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imgb{
+    flex-basis:5%
+}
+
+.boton{
+    margin: 0px 0px 0px 380px;
+    flex-basis:42%;
+    align-self: center;
+}
+
+.favorites{
+    display:flex;
+    margin: 0 0 0 0;
+    cursor:pointer;
+}
+
+.basket{
+    display:flex;
+    margin: 0 20px 0 0;
+    cursor:pointer;
+}
+
+.favorites-text{
+    margin: 0 0 0 10px;
+}
+
+.basket-text{
+    margin: 0 0 0 8px;
+}
+
+.user{
+    display:flex;
+    margin: 0 10px 0 0;
+    cursor:pointer;
+}
+
+.menu{
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    justify-content:space-between;
+}
+
+.nav{
+    margin: 5px 0 5px 15px;
+}
+
+.nav a{
+    margin: 25px 0 25px 35px;
+    padding: 0 20px 0 20px;
+    color: black;
+    text-decoration:none;
+}
+
+.follow-my-order{
+    display:flex;
+    margin: 0 50px 0 0;
+    padding: 10px 8px 10px 8px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 4px;
+}
+
+.fmo-text{
+    margin: 0 0 0 8px;
+    text-align: center;
+    cursor:pointer;
+}
+
+.login{
+    margin: 30px 0 0 0;
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.login-div{
+    margin: 0 320px 0 0;
+    padding: 10px 25px 0px 25px;
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 4px;
+    flex-basis: 20%;
+}
+
+.login-div-1{
+    text-align: center;
+}
+
+.login-div-2{
+    margin:15px 0 0 0;
+    text-align:left;
+}
+
+.login-div-3{
+    margin: 0 0 30px 0;
+    text-align:center;
+}
+
+.login-div-3 a{
+    color:rgb(252, 148, 72);
+}
+
+.webs{
+    padding: 7px 10px 4px 0px;
+    display:flex;
+    justify-content:space-around;
+}
+
+.or-continue-with{
+    color:rgb(87, 87, 87);
+}
+
+.botones-main{
+    margin: 15px 0 0 8px;
+}
+
+.signin{
+    margin: 0 0 0 0;
+}
+
+.register-now{
+    margin: 5px 0 0 0;
+}
+
+/* PSEUDOCLASES DE CLASES */
+
+.delivery-phrase:hover{
+    text-decoration:underline;
+}
+
+.delivery-caret-1:hover{
+    text-decoration:underline;
+}
+
+.delivery-caret-2:hover{
+    text-decoration:underline;
+}
+
+.favorites-text:hover{
+    text-decoration:underline;
+}
+
+.basket-text:hover{
+    text-decoration:underline;
+}
+
+.nav a:hover{
+    text-decoration:underline;
+}
+
+.fmo-text:hover{
+    text-decoration:underline;
+}
